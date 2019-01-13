@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-export interface AlertDialogProps {
+export interface SpyOnMethodProps {
     children: string;
 } 
 
-class AlertDialog extends Component<AlertDialogProps> {
+class SpyOnMethod extends Component<SpyOnMethodProps> {
     render(){
         return <button onClick={this.handleClick}>Click Me</button>
     }
@@ -14,4 +14,4 @@ class AlertDialog extends Component<AlertDialogProps> {
     }
 }
 
-export default AlertDialog;
+export default SpyOnMethod;
